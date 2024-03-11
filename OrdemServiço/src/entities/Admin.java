@@ -25,6 +25,7 @@ public class Admin {
        
         admin.adicionarUsuario("usuario1", "senha1");
         admin.adicionarUsuario("usuario2", "senha2");
+        admin.adicionarUsuario("funcionario1", "252422");
 
        
         String username = "usuario1";

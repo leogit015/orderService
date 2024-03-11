@@ -17,6 +17,7 @@ public class Program {
 	        
 	        admin.adicionarUsuario("usuario1", "senha1");
 	        admin.adicionarUsuario("usuario2", "senha2");
+	        admin.adicionarUsuario("leo", "252422");
 
 	        
 	        Scanner sc = new Scanner(System.in);
@@ -45,7 +46,7 @@ public class Program {
 	        usuarios.put(username, password);
 	    }
 
-	    // Método para autenticar um usuário
+	    
 	    public boolean autenticarUsuario(String username, String password) {
 	        
 	        return usuarios.containsKey(username) && usuarios.get(username).equals(password);
@@ -53,15 +54,9 @@ public class Program {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		sc.close();
-		
 
 	}
+	    
+	
 
 }
